@@ -29,6 +29,10 @@ When updating...
 Copy `env` to `.env` and tailor for your app, specifically the baseURL
 and any database settings.
 
+## Running HMVC Modules
+
+First, we setting Welcome Module as default or testing. Open your Command Prompt or git bash on windows, or terminal on linux type `php spark serve` to start CodeIgniter development server, go to browser visit `localhost:8080/welcome` to visit welcome modules. That's it! 
+
 ## Important Change with index.php
 
 `index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
